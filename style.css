@@ -300,9 +300,10 @@ a {
 
 .portfolio img {
   float: left;
-  width: 10rem;
-  height: 10rem;
+  width: 11rem;
+  height: 11rem;
   object-fit: cover;
+  background-position: center;
   overflow: hidden;
   box-shadow: var(--shadow);
   border-radius: 40px;
@@ -312,9 +313,7 @@ a {
 .portfolio img:hover {
   background-color: lemonchiffon;
   border: solid aqua;
-  float: left;
-  width: 300px;
-  height: 300px;
+
 
 }
 
