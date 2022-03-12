@@ -186,7 +186,7 @@ a {
 .showcase {
   grid-area: showcase;
   min-height: 600px;
-  background-image: url(IMG/pic2.jpg);
+  background-image: url(img/pic2.jpg);
   background-size: contain;
   background-repeat: repeat;
   background-position: center;
