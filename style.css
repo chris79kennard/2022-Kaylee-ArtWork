@@ -293,12 +293,18 @@ a {
   display: grid;
   grid-gap: 20px;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  object-fit: cover;
+  overflow: hidden;
+
 }
 
 .portfolio img {
-  width: 100%;
+  float: left;
+  width: 10rem;
+  height: 10rem;
+  object-fit: cover;
+  overflow: hidden;
   box-shadow: var(--shadow);
-  border: solid var(--light);
   border-radius: 40px;
   border: dotted lemonchiffon;
 }
@@ -306,6 +312,10 @@ a {
 .portfolio img:hover {
   background-color: lemonchiffon;
   border: solid aqua;
+  float: left;
+  width: 300px;
+  height: 300px;
+
 }
 
 /* Footer */
