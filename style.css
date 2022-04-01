@@ -1,10 +1,10 @@
 /* CSS Variables */
 :root {
-  --primary: rgb(89, 89, 89);
-  --dark: rgb(38, 38, 38);
-  --light: rgb(166, 166, 166);
-  --darker: rgb(13, 13, 13);
-  --shadow: 0 1px 5px rgba(104, 104, 104, 0.986);
+  --primary: rgb(172, 126, 191);
+  --dark: rgb(239, 200, 246);
+  --light: whitesmoke;
+  --darker: black;
+  --shadow: 0 1px 5px rgba(217, 152, 95);
 
 }
 
@@ -109,7 +109,7 @@ p {
 
 .btn:hover {
   background: var(--darker);
-  color: aquamarine;
+  color: pink;
   font-weight: bolder;
   box-shadow: var(--shadow);
   border: solid aqua;
@@ -131,17 +131,18 @@ img:hover {
 }
 
 .wrapper {
+  /* background-image: url(img/pic8.jpg); */
   display: grid;
-  grid-gap: 20px;
+  grid-gap: 5px;
 }
 
 /* Navigation */
 .main-nav ul {
   display: grid;
-  grid-gap: 20px;
+  grid-gap: 2em;
   padding: 0;
   list-style: none;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
 
 
 }
@@ -159,7 +160,7 @@ img:hover {
   box-shadow: var(--shadow);
   font-family: Georgia, Times, 'Times New Roman';
   border-radius: 10px 100px / 120px;
-  border: dotted lemonchiffon;
+  border: solid;
 }
 
 a {
@@ -168,8 +169,8 @@ a {
 
 .main-nav a:hover {
   background: var(--dark);
-  color: aquamarine;
-  border: solid aqua;
+  color: pink;
+  border: solid rgb(250, 159, 174);
   border-radius: 80% 100%;
 
 }
@@ -196,7 +197,7 @@ a {
   align-items: start;
   justify-content: center;
   box-shadow: var(--shadow);
-  border: dotted lemonchiffon;
+  border: solid white;
   border-width: 2px 4px;
   border-radius: 40px;
 }
@@ -229,8 +230,7 @@ a {
   justify-items: center;
   box-shadow: var(--shadow);
   padding: 1.5rem;
-  border: solid var(--light);
-  border: dotted lemonchiffon;
+  border: solid white;
 }
 
 .top-box .price {
@@ -307,12 +307,12 @@ a {
   overflow: hidden;
   box-shadow: var(--shadow);
   border-radius: 40px;
-  border: dotted lemonchiffon;
+  border: pink;
 }
 
 .portfolio img:hover {
-  background-color: lemonchiffon;
-  border: solid aqua;
+  background-color: pink;
+  border: solid pink;
 
 
 }
